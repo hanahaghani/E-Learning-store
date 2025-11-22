@@ -1,0 +1,24 @@
+.teacher-section-wrapper{
+    background-image: url(../img/purple-wallpaper.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+ .teacher-section-wrapper img{
+    width: 563px;
+    height: 517px;
+} 
+.teacher-intro{
+    background: #ecb8eb;
+    top: 74%;
+    left: 50%;
+    width: 70%;
+    height: auto;
+    transform: translate(-50%,-50%);
+    box-shadow: -1px 3px 7px 1px #bd46bb;
+    border-radius: 10px;
+}
+.teacher-intro p{
+    text-align: center;
+    padding: 10px;
+}

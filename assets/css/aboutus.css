@@ -1,0 +1,20 @@
+.text{
+    font-size: 18px;
+    margin: 10px 40px;
+    color: rgb(60, 61, 61);
+}
+.about-us-left-side{
+    background-color: rgb(213, 181, 243);
+    border-radius: 25px;
+    margin-top: 80px;
+}
+.border{
+    border-bottom: 1px solid #585555;
+    padding: 8px;
+    margin: 0 20px;
+}
+@media screen and (max-width:767px) {
+    .about-us-right-side{
+        display: none;
+    }
+}

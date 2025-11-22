@@ -1,0 +1,17 @@
+@import url(content.css);
+@import url(navbar.css);
+@import url(header.css);
+@import url(section.css);
+@import url(aboutus.css);
+@import url(teacher.css);
+@import url(stat.css);
+@import url(topic.css);
+@import url(faq.css);
+@import url(footer.css);
+*{
+        direction: rtl;
+}
+body{
+        width: 100%;
+        overflow-x:hidden ;
+}

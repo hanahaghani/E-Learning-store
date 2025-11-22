@@ -1,0 +1,49 @@
+/* start navbar section styles */
+.nav{
+    background-color: rgb(213, 181, 243);
+    overflow: hidden;
+    box-shadow: 2px 2px 2px #726f6fb2;
+    position: sticky;
+    top: 10px;
+    z-index: 999;
+}
+.active{
+    border-bottom: 2px solid rgb(222, 5, 230);
+}
+.nav a{
+    float: right;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav a:hover{
+    border-bottom: 2px solid rgb(250, 9, 218);
+}
+.icon{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .nav a:not(:first-child){
+            display: none;
+    }
+    .nav a.icon{
+            display: block;
+            float: left;
+    }
+    .nav.responsive{
+            position: relative;
+    }
+    .nav.responsive a.icon{
+            position: absolute;
+            top: 0;
+            left: 0;
+    }
+    .nav.responsive a{
+            float: none;
+            display: block;
+            text-align: right;
+    }
+}
+/* end navbar section styles */

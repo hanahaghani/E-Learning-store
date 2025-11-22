@@ -1,0 +1,40 @@
+.img-header{
+    min-height: 100vh;
+}
+.overlay{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.2);
+    min-height: 78.3vh;
+}
+.header-title{
+    color: #fff;
+    margin: 50px;
+    max-width: 200px;
+}
+.header-title a{
+    background-color: rgb(234, 0, 255);
+    padding: 5px 2px;
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+}
+.header-title a:hover{
+    color: black;
+}
+@media screen and (max-width:700px) {
+    .header-title{
+            width: 100%;
+            margin: 0;
+            position: absolute;
+            background-color:transparent;
+            color: black;
+            padding: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 5px;
+            border: 2px solid #b3b3b3;
+    }
+}

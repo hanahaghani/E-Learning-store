@@ -1,0 +1,75 @@
+.topic-section-wrapper{
+    background-image: url(../img/sky1.jpg);
+    background-size: cover;
+    /* opacity: 1; */
+}
+.card-topic{
+    height: 430px;
+    box-shadow: 2px 2px 2px #3d3838;
+    cursor: pointer;
+    margin: 4px 4px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.footer ul li{
+    list-style: none;
+}
+.topic-section-wrapper .card-header{
+    overflow: hidden;
+}
+.topic-wrapper .card-header img{
+    transition: 1s ease;
+}
+.topic-wrapper:hover  img{
+    transform: scale(1.5) rotate(15deg);
+}
+.topic-wrapper .card-body a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+    color: #440133;
+    line-height: 20px;
+}
+.topic-wrapper .card-body a:hover{
+    color: blueviolet;
+}
+.topic-wrapper .card-body{
+    margin: 5px;
+    top: 0;
+    right: 0;
+}
+.card-body .post-date{
+    top: -38px;
+    right: 10px;
+    width: 35px;
+    text-align: center;
+    color: #464646;
+}
+.card-body .post-date div:first-child{
+    background-color:#f38cf1 ;
+}
+.card-body .post-date div:last-child{
+    background-color:#ecb8eb ;
+}
+.topic-wrapper .card-body p{
+    font-size: 13px;
+    color: #4c4d4d;
+}
+.topic-wrapper .footer ul{
+    margin-top:20px;
+    border-top: 1px solid #bdbcbc;   
+}
+.topic-wrapper .footer ul li{
+    display: inline;
+    margin: 0 10px;
+}
+.topic-wrapper .footer ul li i{
+    color: #f796f5;
+    font-size: 14px;
+    margin: 5px;
+}
+.topic-wrapper .footer ul li span{
+    font-size: 12px;
+    margin: 5px;
+    color: #4d354c;
+}

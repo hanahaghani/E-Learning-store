@@ -1,0 +1,125 @@
+.footer-section-wrapper .row{
+    padding: 15px;
+}
+.footer-section-bg{
+    background-color:rgb(87, 2, 168);
+}
+.column-1 i{
+    transform: rotate(-25deg);
+    color: #f702f1;
+    font-size: 24px;
+    padding: 5px;
+}
+.column-1 p{
+    font-size: 14px;
+    color: #2b2a2a;
+    padding: 10px;
+}
+.column-1 h3{
+    display: inline;
+    font-size: 22px;
+}
+.column-1 .column-1-title{
+    border-bottom: 1px solid #8b68a4;
+    padding: 5px;
+}
+.column-2 h4{
+    border-bottom: 1px dashed #8b68a4;
+    padding: 9px;
+  font-size: 20px;
+}
+.column-2 .tab .tab-label::after{
+    content: '\276f';
+    text-align: center;
+    float: right;
+    margin-left: 3px;
+    color: #f702f1;
+    transition: 0.5s ease;
+}
+.column-2  .tab{
+    color: #2b2a2a;
+}
+.column-2 .tab .tab-content{
+    max-height: 0;
+    color: #2b2a2a;
+    background-color: #d9d4d4;
+    transition: 1s ease;
+    font-size: 16px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.column-2 .tab input:checked ~.tab-content{
+    min-height: 50px;
+    padding: 10px;
+}
+.column-2 .tab input:checked +.tab-label::after{
+    transform: rotate(-90deg);
+}
+.column-2 .tab input{
+    display: none;
+}
+.column-2 .tab {
+    padding: 5px;
+}
+.column-2 .tab:hover {
+    color: #f559b9;
+}
+.copy-right{
+    text-align: center;
+    border-top: 2px dashed #f70299;
+    background-color:rgb(87, 2, 168);
+    padding: 10px;
+    font-size: 14px;
+}
+.column-3 ul a{
+    color: #f702f1;
+    font-size: 20px;
+    float: left;
+    padding: 7px;
+    transition: 1s ease;
+}
+.column-3 .contact-us ul a:hover{
+    animation: a 2s ease-in-out infinite;
+    color: #f283fc;
+}
+@keyframes a {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.column-3 .contact-us ul{
+    width: 220px;
+}
+.column-3 .contact-us h4{
+    border-bottom: 1px dashed #8b68a4;
+    font-size: 15px;
+    padding: 11px;
+}
+.column-3 form input[type="submit"]{
+    background-color: #f702f1;
+    color: #fff;
+    border: none;
+    left: 30px;
+    width: 70px;
+    height: 43px;
+}
+.column-3 form input[type="text"]{
+    width: 250px;
+    height: 40px;
+}
+.column-4 .contact-us h4{
+    border-bottom: 1px dashed #8b68a4;
+    font-size: 18px;
+    padding: 10px;
+}
+.column-4 .contact-us ul i{
+    display: block;
+    font-size: 17px;
+    color: #f702f1;
+    padding: 5px;
+}
+.column-4 .contact-us ul i span{
+    font-size: 12px;
+    color: #2b2a2a;
+    padding: 5px;
+}

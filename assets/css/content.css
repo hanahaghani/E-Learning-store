@@ -1,0 +1,41 @@
+.container-fluid-custom{
+    background-color: rgb(104, 3, 151);
+    color: #ffffff;
+    height: 30px;
+}
+.container-fluid-custom .contact i{
+        color:  rgb(172, 93, 247);
+        font-size: 15px;
+        margin: 0 15px;
+        vertical-align: -2px;
+}
+.container-fluid-custom .contact span{
+        color: rgb(226, 146, 250);
+        font-size: 12px;
+        margin: 3px;
+}
+.contact{
+      direction: ltr;
+}
+.social-media{
+    direction: rtl;
+}
+.container-fluid-custom .social-media i{
+        vertical-align: -2px;
+        margin-right: 5px;
+        padding: 7px ;
+        width: 20px;
+
+}
+.container-fluid-custom .social-media a{
+        color:  rgb(213, 181, 243);
+}
+.container-fluid-custom .social-media i:hover{
+        animation: a 1s ease infinite;
+        background-color:rgb(234, 0, 255);
+}
+@keyframes a{
+        100%{
+                transform: rotate(360deg);
+        }
+}
